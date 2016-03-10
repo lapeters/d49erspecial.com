@@ -109,6 +109,10 @@ html, body {
 section{
 	padding-top:50px;
 } 
+.single {
+ 	background-image:none;
+ 	background-color:#000;
+ }
 .col-md-8 > p{
 	text-align: left;
 	font-family: 'Crimson Text', serif;
@@ -121,12 +125,51 @@ section{
 	font-size: 12pt;
 	text-indent: 10px;
 }
+ h1 > a {
+ 	color:#FFF;
+ }
+
+ .headline{
+ 	font-size:3em;
+ 	line-height:1;
+ }
+h1 {
+ 	text-align: left;
+ }
+ .deck{
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	font-size:2em;
+ 	line-height:1.5;
+ 	text-align: left;
+
+ }
+ .byline {
+ 	font-family: 'Crimson Text', serif;
+ 	font-size: 14pt;
+ 	float: left;
+ 	font-variant: small-caps;
+ 	padding-right:5px;
+ }
 .carousel-indicators{
 	bottom:60px;
 }
-.single {
- 	background-image:none;
- 	background-color:#000;
+/* LIVE MUSIC CRAWL & DANCING STYLES
+-----------------------------------------*/
+.timestamp {
+ 	font-family:'Josefin sans', sans-serif;
+ 	font-size: 14pt;
+    text-indent: 0;
+ }
+ blockquote {
+ 	font-size:9pt;
+ 	font-family:'Crimson Text', serif;
+ }
+ .quote {
+ 	font-size:14pt;
+ 	font-style:italic;
+ }
+ .caption{
+ 	font-style:italic;
  }
 
 /* FOOTER STYLES 

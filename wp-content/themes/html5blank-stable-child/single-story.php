@@ -20,14 +20,14 @@
 			<!-- POST TITLE -->
 			<div class="container nopad">
 			<h1>
-				<a href="<?php the_permalink(); ?>" class="headline1" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+				<a href="<?php the_permalink(); ?>" class="headline" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 			</h1>
 			<!-- /post title -->
 
 			<!-- POST DETAILS BEFORE CONTENT -->
-			<span class="deck1"><?php echo types_render_field("deck", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));?></span>
+			<span class="deck"><?php echo types_render_field("deck", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));?></span>
 			
-			<span class="bylineA"><?php echo types_render_field("author", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2")); ?></span>
+			<span class="byline"><?php echo types_render_field("author", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2")); ?></span>
 			</div>
 			
 			<!-- /post details -->
