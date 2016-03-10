@@ -103,3 +103,64 @@ html, body {
 	border-radius: 8px;
 	text-shadow:1px 1px 3px #666;
 }
+
+/* STORY PAGE STYLES
+------------------------------------------*/
+section{
+	padding-top:50px;
+} 
+.col-md-8 > p{
+	text-align: left;
+	font-family: 'Crimson Text', serif;
+	font-size: 11pt;
+	text-indent: 10px;
+}
+.bodycopy > p {
+	text-align: left;
+	font-family: 'Crimson Text', serif;
+	font-size: 12pt;
+	text-indent: 10px;
+}
+.carousel-indicators{
+	bottom:60px;
+}
+.single {
+ 	background-image:none;
+ 	background-color:#000;
+ }
+
+/* FOOTER STYLES 
+-----------------------------------------*/
+ footer a {
+ 	font-family:'Josefin Sans', serif;
+ 	font-size: 9pt;
+ 	font-weight: 600;
+ 	color:#FFF;
+ }
+ footer a:hover {
+ 	color:#FFF;
+ 	font-style: italic;
+ }
+ .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #000;
+  clear:both;
+}
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+footer p{
+	font-family:'Josefin Sans', serif;
+ 	font-size: 9pt;
+ 	font-weight: 600;
+	color:#FFF;
+	margin-top:10px;
+}
+.copyright{
+	float:left;
+}
