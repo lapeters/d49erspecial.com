@@ -12,6 +12,94 @@
  Text Domain:  html5blank-stable-child
 */
 @import url("../html5blank-stable/style.css");
-body{
-	color:red;
+html, body {
+	height: 100%;
+}
+/* BODY STYLE
+----------------------------------------*/
+ body{
+ 	background:url(http://music.d49erspecial.com/wp-content/uploads/sites/2/2016/03/Trang_Le_DangerMobParty2.jpg) no-repeat center top fixed;
+ 	-webkit-background-size:cover;
+ 	-moz-background-size:cover;
+ 	-o-background-size:cover;
+ 	background-size:cover;
+
+ 	background-color: #000;
+ 	color:#FFF;
+ }
+ h1,h2,h3,h4,h5,h6 {
+	font-family:'Libre Baskerville', serif;
+}
+ .wrapper{
+    min-height: 100%;
+    height: auto !important;
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto -4em;
+    position: relative;
+}
+/* NAVIGATION BAR STYLES
+ -----------------------------------------*/
+ nav{
+ 	text-shadow: none;
+ }
+ .navbar{
+ 	background-color: #000; 
+ }
+ .navbar-default {
+ 	border:none;
+ }
+ .navbar-default .navbar-nav > li > a {
+ 	color:#FFF;
+ 	font-family: 'Josefin Sans', serif;
+ 	font-size: 10pt;
+ 	font-weight: 600;
+ }
+ .navbar-brand{
+ 	font-family: Impact, Charcoal, sans-serif;
+ }
+ .navbar-default .navbar-brand {
+ 	color: #FFF;
+ }
+ .navbar-default 
+ .navbar-nav>.active>a, 
+ .navbar-default .navbar-nav>.active>a:focus, 
+ .navbar-default .navbar-nav>.active>a:hover {
+ 	color:#000;
+ 	background-color:#FFF;
+ }
+ .navbar-default .navbar-nav > li > a:hover{
+ 	background-color:#FFF;
+ }
+ /* HOMEPAGE STYLES
+-----------------------------------------*/
+.txtshdw{
+	text-shadow:0 1px 3px #666;
+}
+.cover-heading {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+}
+.head1 {
+	margin-bottom:0;
+	font-size:70px;
+}
+.head2 {
+	margin-top:0;
+	margin-bottom:10px;
+	font-size:50px;
+}
+.btn {
+	float:left;
+	border:none;
+}
+.btn-default {
+	background-color: #093470;
+	color:#FFF;
+}
+.soundwave {
+	overflow:hidden;
+	padding:0;
+	border-radius: 8px;
+	text-shadow:1px 1px 3px #666;
 }
