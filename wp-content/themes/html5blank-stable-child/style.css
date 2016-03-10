@@ -113,10 +113,10 @@ section{
  	background-image:none;
  	background-color:#000;
  }
-.col-md-8 > p{
+.col-md-10 > p{
 	text-align: left;
 	font-family: 'Crimson Text', serif;
-	font-size: 11pt;
+	font-size: 12pt;
 	text-indent: 10px;
 }
 .bodycopy > p {
