@@ -1,0 +1,17 @@
+/*
+ Theme Name:   html5blank-stable-child-music
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Music Special Issue Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     html5blank-stable
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  html5blank-stable-child
+*/
+@import url("../html5blank-stable/style.css");
+body{
+	color:red;
+}
