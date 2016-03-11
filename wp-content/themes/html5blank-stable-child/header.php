@@ -17,8 +17,8 @@
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
 		
 		<!-- FONTS -->
-		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:900' rel='stylesheet' type='text/css'>
 
