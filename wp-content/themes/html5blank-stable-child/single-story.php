@@ -25,17 +25,19 @@
 			<!-- /post title -->
 
 			<!-- POST DETAILS BEFORE CONTENT -->
+			<span class="byline"><?php echo types_render_field("author", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2")); ?></span>
+
 			<span class="deck"><?php echo types_render_field("deck", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));?></span>
 			
-			<span class="byline"><?php echo types_render_field("author", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2")); ?></span>
 			</div>
 			
 			<!-- /post details -->
 			
 			<!-- CONTENT -->
 			<div class="row">
-			<div class="col-md-10 col-md-offset-1 col-xs-12">	
-				<?php the_content(); // Dynamic Content ?>
+			<div class="col-md-8 col-md-offset-2 col-xs-12">	
+				<span class="bodycopy"><?php the_content(); // Dynamic Content ?></span>
+
 
 
 			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>

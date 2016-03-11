@@ -30,6 +30,10 @@ html, body {
  h1,h2,h3,h4,h5,h6 {
 	font-family:'Libre Baskerville', serif;
 }
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
  .wrapper{
     min-height: 100%;
     height: auto !important;
@@ -113,13 +117,7 @@ section{
  	background-image:none;
  	background-color:#000;
  }
-.col-md-10 > p{
-	text-align: left;
-	font-family: 'Crimson Text', serif;
-	font-size: 12pt;
-	text-indent: 10px;
-}
-.bodycopy > p {
+.col-md-8 > p, .bodycopy > p {
 	text-align: left;
 	font-family: 'Crimson Text', serif;
 	font-size: 12pt;
@@ -171,7 +169,15 @@ h1 {
  .caption{
  	font-style:italic;
  }
-
+/* TACKY LITTLE HAT SHOP
+-----------------------------------------*/
+dl {
+	font-family: 'Crimson Text', serif;
+	font-size:12pt;
+}
+dd {
+	padding-bottom:10px;
+}
 /* FOOTER STYLES 
 -----------------------------------------*/
  footer a {
@@ -207,3 +213,20 @@ footer p{
 .copyright{
 	float:left;
 }
+
+/* RESPONSIVE STYLES
+-------------------------------------------*/
+@media (min-width: 992px){
+	.container {
+    width: 90% !important;
+}
+}
+@media (min-width: 1200px){
+	.container {
+    width: 90% !important;
+}
+}
+
+
+
+
