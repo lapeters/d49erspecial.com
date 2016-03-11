@@ -147,6 +147,7 @@ h1 {
  	float: left;
  	font-variant: small-caps;
  	padding-right:5px;
+ 	padding-bottom: 20px;
  }
 .carousel-indicators{
 	bottom:60px;

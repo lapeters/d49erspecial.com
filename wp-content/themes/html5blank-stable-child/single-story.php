@@ -25,8 +25,11 @@
 			<!-- /post title -->
 
 			<!-- POST DETAILS BEFORE CONTENT -->
+			<div class="row">
+				<div class="col-md-12">
 			<span class="byline"><?php echo types_render_field("author", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2")); ?></span>
-
+				</div>
+			</div>
 			<span class="deck"><?php echo types_render_field("deck", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2"));?></span>
 			
 			</div>
