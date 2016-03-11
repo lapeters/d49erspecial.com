@@ -37,10 +37,10 @@
 			
 			<!-- CONTENT -->
 			<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 col-xs-12">	
+			<div class="col-md-10 col-md-offset-1">	
 				<?php the_content(); // Dynamic Content ?>
 
-				<span class="bodycopy"><?php 
+				<span class="bodycopy cent"><?php 
 			echo types_render_field("snippet", array("argument1"=>"value1","argument2"=>"value2","argument2"=>"value2")); ?></span>
 
 			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>

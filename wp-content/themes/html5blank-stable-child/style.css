@@ -23,7 +23,7 @@ html, body {
  	-moz-background-size:cover;
  	-o-background-size:cover;
  	background-size:cover;
-
+	font-family: 'Crimson Text', serif;
  	background-color: #000;
  	color:#FFF;
  }
@@ -149,8 +149,26 @@ h1 {
  	padding-right:5px;
  	padding-bottom: 20px;
  }
+ /* MUSIC LANDMARK STYLES
+ --------------------------------------*/
+ h4 small, h4 .small {
+ 	color:#ccc;
+ }
 .carousel-indicators{
 	bottom:60px;
+}
+.carousel-caption{
+	right:0;
+	left:0;
+	background: rgb(0,0,0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0,0,0,0.8);
+}
+.carousel-caption > p {
+	color:#fff;
+	font-size:11pt;
+	text-align: left;
+	padding-right:10%;
+	padding-left:10%;
 }
 /* LIVE MUSIC CRAWL & DANCING STYLES
 -----------------------------------------*/
@@ -221,6 +239,17 @@ footer p{
 
 /* RESPONSIVE STYLES
 -------------------------------------------*/
+@media (min-width: 768px){
+	.carousel-caption{
+	right:0;
+	left:0;
+}
+	.carousel-caption > p {
+	padding-right:10%;
+	padding-left:10%;
+}
+
+}
 @media (min-width: 992px){
 	.container {
     width: 90% !important;
