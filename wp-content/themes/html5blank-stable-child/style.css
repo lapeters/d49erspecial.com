@@ -160,7 +160,7 @@ h1 {
     text-indent: 0;
  }
  blockquote {
- 	font-size:9pt;
+ 	font-size:10pt;
  	font-family:'Crimson Text', serif;
  }
  .quote {
@@ -168,10 +168,14 @@ h1 {
  	font-style:italic;
  }
  .caption{
+ 	text-align: left;
  	font-style:italic;
  }
 /* TACKY LITTLE HAT SHOP
 -----------------------------------------*/
+h5{
+	font-style:italic;
+}
 dl {
 	font-family: 'Crimson Text', serif;
 	font-size:12pt;
