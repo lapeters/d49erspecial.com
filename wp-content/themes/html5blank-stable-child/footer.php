@@ -2,11 +2,10 @@
 			<footer class="footer navbar-fixed-bottom" role="contentinfo">
 				<div class="container">
 				<!-- copyright -->
-				<p class="copyright text-center">
+				<p class="copyright text-left">
 					&copy; <?php echo date('Y'); ?> Copyright <a href="http://www.daily49er.com/">Daily 49er</a> . <?php _e('Powered by', 'html5blank'); ?>
 					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
-				<p class="text-right text-overflow">Cover photo by: Trang Le | Daily 49er</p>
+				<br>Cover photo by: Trang Le | Daily 49er</p>
 				<!-- /copyright -->
 				</div>
 

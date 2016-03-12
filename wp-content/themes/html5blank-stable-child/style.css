@@ -244,6 +244,38 @@ footer p{
 
 /* RESPONSIVE STYLES
 -------------------------------------------*/
+/* iPhones */
+@media (min-width: 320px)
+and (max-device-width: 667px){
+	.head1{
+		font-size:36pt;
+	}
+	.head2{
+		font-size:26pt;
+	}
+}
+/* iPad Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.movedwn{
+  		padding-top:150px;
+  	}
+}
+/* iPad Landscape */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-pixel-ratio: 2) {
+  	.movedwn{
+  		padding-top:130px;
+  	}
+
+}
 @media (min-width: 768px){
 	.carousel-caption{
 	right:0;
@@ -264,6 +296,20 @@ footer p{
 	.container {
     width: 90% !important;
 }
+}
+@media (min-width: 2000px){
+	body{
+		padding-top:50px;
+	}
+	.head1 {
+		font-size:110px;
+	}
+	.head2{
+		font-size:80px;
+	}
+	.movedwn {
+		padding-top:170px;
+	}
 }
 
 
