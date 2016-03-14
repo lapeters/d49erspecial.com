@@ -247,6 +247,9 @@ footer p{
 /* iPhones */
 @media (min-width: 320px)
 and (max-device-width: 667px){
+	.headline{font-size: 2em;}
+	.deck{font-size:1.5em;}
+	.byline{font-size:12pt;}
 	.head1{
 		font-size:36pt;
 	}
