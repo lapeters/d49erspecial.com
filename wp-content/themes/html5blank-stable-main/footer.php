@@ -4,7 +4,7 @@
 				<div class="container">
 				<!-- copyright -->
 				<p class="copyright text-center">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
+					&copy; <?php echo date('Y'); ?> Copyright <a href="www.daily49er.com">Daily 49er</a> <?php _e('Powered by', 'html5blank'); ?>
 					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
 				</p>	
 				<!-- /copyright -->
