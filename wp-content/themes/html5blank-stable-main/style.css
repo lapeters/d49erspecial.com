@@ -120,11 +120,12 @@ input:focus {
 	background-color: #000;
 	clear:both;
 }
-.footer > p{
+.copyright{
 	color:#FFF !important;
+	padding-top: 20px;
 }
-.footer > p > a {
-	color: #fec834 !important;
+.copyright > a {
+	color: #fec834;
 }
 
 /*------------------------------------*\
