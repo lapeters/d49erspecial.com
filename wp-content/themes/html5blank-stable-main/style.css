@@ -123,6 +123,7 @@ input:focus {
 .copyright{
 	color:#FFF !important;
 	padding-top: 20px;
+	font-size:14px !important;
 }
 .copyright > a {
 	color: #fec834;
