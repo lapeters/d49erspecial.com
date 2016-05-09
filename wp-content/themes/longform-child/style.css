@@ -39,6 +39,10 @@ body.single {
 	background-color:#FFF !important;
 
 }
+header.entry-header{
+    margin-top:-80px;
+    text-align: center;
+}
 p.author {
     font-variant: small-caps;
 }
@@ -62,7 +66,7 @@ p.author {
     display:none;
 }
 .without_thumbnail.container, .intro-effect-fadeout .intro-effect-bg-img-container {
-    min-height: 330px !important;
+    min-height: 360px !important;
 
 }
 
