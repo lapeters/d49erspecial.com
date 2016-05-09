@@ -17,7 +17,7 @@
 	font-size:1em !important;
 }
 html body.home {
-    background-position: 0 20px !important;
+    background-position: 0 0px !important;
 }
 body.home {
     background-image: url('http://i.imgur.com/b823kk3.jpg');
@@ -44,7 +44,7 @@ a.search-button{
     font-variant:normal !important;
 }
 .homepage {
-    font-size:2em !important;
+    font-size: 97px !important;
     color:#000 !important;
     text-align: center !important;
 }
@@ -55,7 +55,7 @@ header.entry-header{
     margin-top:-10px;
 }
 .navbar-fixed-bottom{
-    position:fixed !important;
+    position:static !important;
 }
 .search-toggle{
     border-bottom: 2px solid #fec834 !important;
@@ -90,5 +90,21 @@ header.entry-header{
     }
     .without_thumbnail.container, .intro-effect-fadeout .intro-effect-bg-img-container {
     min-height: 280px !important;
+    }
+    .homepage{
+        font-size:40px !important;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    
+    .navbar-fixed-bottom {
+    position:fixed !important;
+    }
+  }
+@media (min-width: 2000px){
+    article{
+        padding-bottom:80px !important;
     }
 }
