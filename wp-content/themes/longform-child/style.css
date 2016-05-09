@@ -37,6 +37,9 @@ body.single {
 p.author {
     font-variant: small-caps;
 }
+a.search-button{
+    color: #fec834 !important;
+}
 .title{
     font-variant:normal !important;
 }
@@ -46,7 +49,10 @@ p.author {
     text-align: center !important;
 }
 .homeP {
-    margin-top: -70px !important;
+    margin-top: -10px !important;
+}
+header.entry-header{
+    margin-top:-10px;
 }
 .navbar-fixed-bottom{
     position:fixed !important;
