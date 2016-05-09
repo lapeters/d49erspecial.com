@@ -1,0 +1,86 @@
+/*
+ Theme Name:   Longform Child
+ Theme URI:    https://cohhe.com/project-view/longform/
+ Description:  Longform Child Theme
+ Author:       Lindsay Peters
+ Author URI:   http://example.com
+ Template:     longform
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  longform
+*/
+@import url("../longform/style.css");
+
+.entry-header h1 {
+	text-align:left;
+	font-family:3em !important;
+	color:#FFF !important;
+}
+.site-title a{
+	font-size:1.5em !important;
+}
+html body.home {
+    background-position: 0 20px !important;
+}
+body.home {
+    background-image: url('http://i.imgur.com/TPadpQm.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+}
+body.single {
+	background-color:#FFF !important;
+
+}
+p.author {
+    font-variant: small-caps;
+}
+.title{
+    font-variant:normal !important;
+}
+.navbar-fixed-bottom{
+    position:static !important;
+}
+.search-toggle{
+    border-bottom: 2px solid #fec834 !important;
+}
+.site-info {
+    border-top: 2px solid #fec834 !important;
+    background-color:#000 !important;
+}
+.site-navigation > div > ul > li > a:after {
+    background-color: #fec834 !important;
+}
+.entry-meta {
+    display:none;
+}
+.without_thumbnail.container, .intro-effect-fadeout .intro-effect-bg-img-container {
+    min-height: 330px !important;
+
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px){
+    .site-title a {
+        font-size: 7pt !important;
+    }
+
+    .site-footer-wrapper .copyright{
+        font-size: 9pt !important;
+    }
+    .without_thumbnail.container, .intro-effect-fadeout .intro-effect-bg-img-container {
+    min-height: 280px !important;
+    }
+}
