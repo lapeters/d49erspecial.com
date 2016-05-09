@@ -13,19 +13,14 @@
 */
 @import url("../longform/style.css");
 
-.entry-header h1 {
-	text-align:left;
-	font-family:3em !important;
-	color:#FFF !important;
-}
 .site-title a{
-	font-size:1.5em !important;
+	font-size:1em !important;
 }
 html body.home {
     background-position: 0 20px !important;
 }
 body.home {
-    background-image: url('http://i.imgur.com/TPadpQm.jpg');
+    background-image: url('http://i.imgur.com/b823kk3.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -39,25 +34,29 @@ body.single {
 	background-color:#FFF !important;
 
 }
-header.entry-header{
-    margin-top:-80px;
-    text-align: center;
-}
 p.author {
     font-variant: small-caps;
 }
 .title{
     font-variant:normal !important;
 }
+.homepage {
+    font-size:2em !important;
+    color:#000 !important;
+    text-align: center !important;
+}
+.homeP {
+    margin-top: -70px !important;
+}
 .navbar-fixed-bottom{
-    position:static !important;
+    position:fixed !important;
 }
 .search-toggle{
     border-bottom: 2px solid #fec834 !important;
 }
 .site-info {
     border-top: 2px solid #fec834 !important;
-    background-color:#000 !important;
+    background-color: #000 !important;
 }
 .site-navigation > div > ul > li > a:after {
     background-color: #fec834 !important;
@@ -69,7 +68,6 @@ p.author {
     min-height: 360px !important;
 
 }
-
 
 /* ----------- iPhone 4 and 4S ----------- */
 
